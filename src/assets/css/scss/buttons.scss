@@ -1,0 +1,65 @@
+
+button,input[type="button"],input[type="submit"],.btn {
+  background: $primary2;
+  border-color: $primary2;
+  padding: 14px 40px;
+  border-radius: $border-radius4;
+	border-width: 1px;
+  border-style: solid;
+	text-decoration: none;
+	//display: inline-block;
+  color: $light1;
+  font-size: 100%;
+  height: 50px;
+  line-height: 100%;
+  content: "";
+  display: table;
+  clear: both;
+	&:hover, &:focus, &:active, &.active {
+    background: $primary1;
+    border-color: $primary1;
+		text-decoration: none;
+    color: $light1;
+	}
+}
+
+.btn-block {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+.btn-lg {
+  font-size: 18px;
+}
+
+.btn-primary {
+  background-color: $primary1;
+  border-color: $primary1;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+  background-color: $primary2;
+  border-color: $primary2;
+}
+
+.btn-success {
+  background-color: $secondary1;
+  border-color: $secondary1;
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active {
+  background-color: $secondary2;
+  border-color: $secondary2;
+}
+
+.btn-danger  {
+  background-color: $danger1;
+  border-color: $danger1;
+}
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active  {
+  background-color: $danger2;
+  border-color: $danger2;
+}
+
+.btn-link {
+  font-size: 18px;
+  line-height: 2.4em;
+}

@@ -1,0 +1,102 @@
+
+// ==========================================================================
+// Change color theme
+// ==========================================================================
+
+//.nav{
+//  background: #DC4D61;
+//}
+//
+// a {
+//   color: #DC4D61;
+//   &:hover,
+//   &:focus {
+//     color: #E55069;
+//   }
+// }
+//
+// button,input[type="button"],input[type="submit"],.btn {
+//   background: #DC4D61;
+//   border-color: #DC4D61;
+//   &:hover, &:focus, &:active, &.active {
+//     background: #E55069;
+//     border-color: #E55069;
+//   }
+// }
+
+//
+// body {
+//   font-family: 'arial';
+//   padding: 0;
+//   margin: 0;
+//   color: #54565b;
+//   letter-spacing: 0.1em;
+// }
+//
+.header {
+  width: 100%;
+  border-top: 10px solid #00a4e4;
+  z-index: 500;
+  border-bottom: 1px solid #d1d0ce;
+  height: 100px;
+  position: relative;
+  /*animation: fade-in 1 0.3s linear;
+  animation-delay: 0.0s;*/
+  background: #ffffff;
+}
+.header .restrict{
+  position: relative;
+  /*animation: fade-in-and-down 1 0.7s ease-out;
+  animation-delay: 0.0s;*/
+}
+
+.hero{
+}
+
+.header ul{
+  list-style: none;
+  top: 20px;
+  position: absolute;
+  text-align: right;
+  transition: all .1s;
+  right: 10px;
+}
+.header ul li{
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+.header ul li a{
+  font-size: 14px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 8px 20px;
+  color: #54565b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ul li a:hover{
+  display: inline-block;
+  background: #005984;
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+.header ul li a.active{
+  color: #00a4e4;
+}
+
+
+
+a.logo-link {
+  height: 130px;
+  top: 25px;
+  left: 30px;
+  position: relative;
+}
+
+.App-logo {
+  height: 40px;
+  position: relative;
+}

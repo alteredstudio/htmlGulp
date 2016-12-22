@@ -1,0 +1,18 @@
+.social-icons{
+  a{
+    padding: 0 5px;
+    span{
+      &:hover,&:focus {
+        color: $black1;
+      }
+    }
+    &:hover,&:focus {
+      text-decoration: none;
+    }
+  }
+  span{
+    &:before{
+      font-size: 42px;
+    }
+  }
+}

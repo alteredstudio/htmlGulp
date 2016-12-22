@@ -1,0 +1,301 @@
+// @font-face {
+//     font-family: 'icomoon';
+//     src:    url('../fonts/icomoon.eot?3dy3c4');
+//     src:    url('../fonts/icomoon.eot?3dy3c4#iefix') format('embedded-opentype'),
+//         url('../fonts/icomoon.ttf?3dy3c4') format('truetype'),
+//         url('../fonts/icomoon.woff?3dy3c4') format('woff'),
+//         url('../fonts/icomoon.svg?3dy3c4#icomoon') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+//
+// [class^="icon-"], [class*=" icon-"] {
+//   /* use !important to prevent issues with browser extensions that change fonts */
+//   font-family: 'icomoon' !important;
+//   speak: none;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-variant: normal;
+//   text-transform: none;
+//   line-height: 1;
+//
+//   /* Better Font Rendering =========== */
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+// }
+//
+// .icon-add:before {
+//   content: "\e900";
+// }
+// .icon-agreement:before {
+//   content: "\e901";
+// }
+// .icon-back:before {
+//   content: "\e902";
+// }
+// .icon-back-arrow:before {
+//   content: "\e903";
+// }
+// .icon-bell-filled:before {
+//   content: "\e904";
+// }
+// .icon-bullhorn:before {
+//   content: "\e905";
+// }
+// .icon-business:before {
+//   content: "\e906";
+// }
+// .icon-calendar:before {
+//   content: "\e907";
+// }
+// .icon-calulator:before {
+//   content: "\e908";
+// }
+// .icon-cart:before {
+//   content: "\e909";
+// }
+// .icon-chat:before {
+//   content: "\e90a";
+// }
+// .icon-checkmark:before {
+//   content: "\e90b";
+// }
+// .icon-chevron-down:before {
+//   content: "\e90c";
+// }
+// .icon-chevron-left:before {
+//   content: "\e90d";
+// }
+// .icon-chevron-right:before {
+//   content: "\e90e";
+// }
+// .icon-chevron-up:before {
+//   content: "\e90f";
+// }
+// .icon-circle:before {
+//   content: "\e910";
+// }
+// .icon-circle-checked:before {
+//   content: "\e911";
+// }
+// .icon-circle-checked-filled:before {
+//   content: "\e912";
+// }
+// .icon-circle-close-filled:before {
+//   content: "\e913";
+// }
+// .icon-circle-filled .path1:before {
+//   content: "\e914";
+//   color: rgb(2, 2, 3);
+// }
+// .icon-circle-filled .path2:before {
+//   content: "\e915";
+//   margin-left: -1em;
+//   color: rgb(0, 0, 0);
+// }
+// .icon-circle-filled .path3:before {
+//   content: "\e916";
+//   margin-left: -1em;
+//   color: rgb(2, 2, 3);
+// }
+// .icon-circle-info-filled:before {
+//   content: "\e917";
+// }
+// .icon-circle-minus-filled:before {
+//   content: "\e918";
+// }
+// .icon-circle-plus-filled:before {
+//   content: "\e919";
+// }
+// .icon-circle-question-filled:before {
+//   content: "\e91a";
+// }
+// .icon-click:before {
+//   content: "\e91b";
+// }
+// .icon-clipboard:before {
+//   content: "\e91c";
+// }
+// .icon-clock:before {
+//   content: "\e91d";
+// }
+// .icon-close:before {
+//   content: "\e91e";
+// }
+// .icon-cloud:before {
+//   content: "\e91f";
+// }
+// .icon-contact:before {
+//   content: "\e920";
+// }
+// .icon-create:before {
+//   content: "\e921";
+// }
+// .icon-dashboard:before {
+//   content: "\e922";
+// }
+// .icon-delete:before {
+//   content: "\e923";
+// }
+// .icon-documents:before {
+//   content: "\e924";
+// }
+// .icon-edit:before {
+//   content: "\e925";
+// }
+// .icon-file:before {
+//   content: "\e926";
+// }
+// .icon-files:before {
+//   content: "\e927";
+// }
+// .icon-flag:before {
+//   content: "\e928";
+// }
+// .icon-folder:before {
+//   content: "\e929";
+// }
+// .icon-forward:before {
+//   content: "\e92a";
+// }
+// .icon-forward-arrow:before {
+//   content: "\e92b";
+// }
+// .icon-funnel:before {
+//   content: "\e92c";
+// }
+// .icon-gem:before {
+//   content: "\e92d";
+// }
+// .icon-headset:before {
+//   content: "\e92e";
+// }
+// .icon-help:before {
+//   content: "\e92f";
+// }
+// .icon-key:before {
+//   content: "\e930";
+// }
+// .icon-location:before {
+//   content: "\e931";
+// }
+// .icon-lock:before {
+//   content: "\e932";
+// }
+// .icon-mail:before {
+//   content: "\e933";
+// }
+// .icon-manage:before {
+//   content: "\e934";
+// }
+// .icon-menu:before {
+//   content: "\e935";
+// }
+// .icon-more-hor:before {
+//   content: "\e936";
+// }
+// .icon-more-vert:before {
+//   content: "\e937";
+// }
+// .icon-new:before {
+//   content: "\e938";
+// }
+// .icon-note:before {
+//   content: "\e939";
+// }
+// .icon-notebook:before {
+//   content: "\e93a";
+// }
+// .icon-paperclip:before {
+//   content: "\e93b";
+// }
+// .icon-phone:before {
+//   content: "\e93c";
+// }
+// .icon-pie:before {
+//   content: "\e93d";
+// }
+// .icon-print:before {
+//   content: "\e93e";
+// }
+// .icon-reports:before {
+//   content: "\e93f";
+// }
+// .icon-rounded-arrow-down:before {
+//   content: "\e940";
+// }
+// .icon-search:before {
+//   content: "\e941";
+// }
+// .icon-send:before {
+//   content: "\e942";
+// }
+// .icon-setting:before {
+//   content: "\e943";
+// }
+// .icon-share:before {
+//   content: "\e944";
+// }
+// .icon-sign:before {
+//   content: "\e945";
+// }
+// .icon-social-facebook:before {
+//   content: "\e946";
+// }
+// .icon-social-googleplus:before {
+//   content: "\e947";
+// }
+// .icon-social-instagram:before {
+//   content: "\e948";
+// }
+// .icon-social-linkedin:before {
+//   content: "\e949";
+// }
+// .icon-social-pinterest:before {
+//   content: "\e94a";
+// }
+// .icon-social-twitter:before {
+//   content: "\e94b";
+// }
+// .icon-social-youtube:before {
+//   content: "\e94c";
+// }
+// .icon-subtract:before {
+//   content: "\e94d";
+// }
+// .icon-tag:before {
+//   content: "\e94e";
+// }
+// .icon-template:before {
+//   content: "\e94f";
+// }
+// .icon-thumbs-down:before {
+//   content: "\e950";
+// }
+// .icon-thumbs-up:before {
+//   content: "\e951";
+// }
+// .icon-tools:before {
+//   content: "\e952";
+// }
+// .icon-trophy-filled:before {
+//   content: "\e953";
+// }
+// .icon-url:before {
+//   content: "\e954";
+// }
+// .icon-user:before {
+//   content: "\e955";
+// }
+// .icon-user-add:before {
+//   content: "\e956";
+// }
+// .icon-user-filled:before {
+//   content: "\e957";
+// }
+// .icon-users:before {
+//   content: "\e958";
+// }
+// .icon-view:before {
+//   content: "\e959";
+// }

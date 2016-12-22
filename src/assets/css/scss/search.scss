@@ -1,0 +1,42 @@
+.header{
+  #search-trigger{
+    width: 60px;
+    height: 60px;
+    background: #EDEEF3;
+    border-radius: 100%;
+    position: relative;
+    float: right;
+    top: 5px;
+    cursor: pointer;
+    .icon-search{
+      color: #343434;
+      font-size: 30px;
+      position: absolute;
+      top: 15px;
+      left: 15px;
+    }
+  }
+}
+
+#search-drawer{
+  overflow: hidden;
+  height: 0;
+
+  input.search-input{
+    background: $gray3;
+    color: rgba(0,0,0,0.85);
+    border-radius: 0 !important;
+    border: 0;
+    padding: 23px 40px;
+    font-size: 28px;
+    text-align: center;
+    height: 80px;
+  }
+
+}
+
+body.search-open{
+  #search-drawer{
+    height: auto;
+  }
+}
